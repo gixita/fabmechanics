@@ -8,6 +8,8 @@ A simple detachable hinge is a mechanical component consisting of two interlocki
 ## Drawings
 ![Drawing of a simple jointed rotation hinge](./hinge-rotation-simple.svg)
 
+[Download FreeCad model](./hinge-rotation-simple.FCStd) | [Download Step files](./hinge-rotation-simple.step)
+
 ## Print Orientation Analysis
 ### Vertical Orientation (Z-axis hinge pin)
 Advantages: Better layer adhesion around the critical rotation surfaces, higher strength against rotational forces.
