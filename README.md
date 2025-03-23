@@ -4,7 +4,7 @@
 ## How to contribute
 ### Installation locally (not docker)
 
-Install UV as package manager
+Install or upgrade UV as package manager
 ```sh
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
