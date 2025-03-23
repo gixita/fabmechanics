@@ -1,0 +1,11 @@
+site_name: FabMechanics
+repo_url: https://www.makilab.org
+repo_name: FabMechanics
+
+nav:
+  - Chapters:
+      - Welcome!: index.md
+
+theme:
+  name: material
+
