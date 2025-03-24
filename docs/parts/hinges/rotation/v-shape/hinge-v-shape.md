@@ -1,4 +1,5 @@
 # Charnière en V
+_Dernière modification: 24/03/2025_
 
 ![Charnière en V](./hinge-v-shape.png)
 
