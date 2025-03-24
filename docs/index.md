@@ -1,7 +1,7 @@
 # FabMechanics
-Tested designs for 3D printing and laser cutting
+_Conceptions testées pour l'impression 3D et la découpe laser_
 
 
 
-## [Hinges](./parts/hinges/rotation/simple/hinge-rotation-simple.md)
-Describe various types of hinges, like rotational hinges or deformable one.
+## [Charnières](./parts/hinges/hinges.md)
+Charnières pliables et rotatives.

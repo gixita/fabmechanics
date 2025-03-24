@@ -3,8 +3,8 @@ repo_url: https://www.makilab.org
 repo_name: FabMechanics
 
 nav:
-  - Chapters:
-      - Welcome!: index.md
+  - Chapitres:
+    - Bienvenue: index.md
 
 theme:
   name: material
