@@ -3,9 +3,10 @@ repo_url: https://www.makilab.org
 repo_name: FabMechanics
 
 nav:
+  - Bienvenue: index.md
   - Chapitres:
-    - Bienvenue: index.md
-
+    - Charnières: ./parts/hinges/hinges.md
 theme:
   name: material
-
+  features:
+    - navigation.expand # Pour que le sous-titre reste tjs ouvert
