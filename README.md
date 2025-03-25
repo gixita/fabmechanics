@@ -3,6 +3,11 @@
 
 ## How to contribute
 ### Installation locally (not docker)
+Clone the repository
+```sh
+git clone https://github.com/gixita/fabmechanics.git
+cd fabmechanics
+```
 
 Install or upgrade UV as package manager
 ```sh
