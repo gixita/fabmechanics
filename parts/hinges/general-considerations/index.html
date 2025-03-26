@@ -9,8 +9,6 @@
       
       
       
-        <link rel="prev" href="../../..">
-      
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -18,7 +16,7 @@
     
     
       
-        <title>Charnières - FabMechanics</title>
+        <title>Généralités sur le sens d’orientation d’impression des charnières - FabMechanics</title>
       
     
     
@@ -60,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#charnieres" class="md-skip">
+        <a href="#generalites-sur-le-sens-dorientation-dimpression-des-charnieres" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Charnières
+              Généralités sur le sens d’orientation d’impression des charnières
             
           </span>
         </div>
@@ -231,19 +229,19 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -258,7 +256,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Chapitres
@@ -269,19 +267,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../hinges/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -291,7 +280,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -338,16 +326,10 @@
 
 
 
-<h1 id="charnieres">Charnières</h1>
-<p><em>Dernière modification: 26/03/2025</em></p>
-<p><a href="../general-considerations/">Généralités sur l'impression des charnières</a></p>
-<ul>
-<li><a href="../rotation/simple/hinge-rotation-simple/">Charnière universelle simple et détachable</a></li>
-<li><a href="../rotation/v-shape/hinge-v-shape/">Charnière en V</a></li>
-<li><a href="../rotation/gears/hinge-gears/">Charnière à engrenages</a></li>
-<li><a href="../rotation/snap/snap-conical/">Charnière à emboiter</a></li>
-<li><a href="../rotation/lock/lock/">Charnière à blocage</a></li>
-</ul>
+<h1 id="generalites-sur-le-sens-dorientation-dimpression-des-charnieres">Généralités sur le sens d’orientation d’impression des charnières</h1>
+<p>Imprimez toujours les charnières simples horizontalement lorsqu'elles doivent fonctionner immédiatement après impression, car cela aligne les couches perpendiculairement aux forces de traction exercées pendant l'utilisation. Une charnière imprimée verticalement risque de se fracturer le long des couches qui se décolleront sous tension. Cependant, si vous intégrez un axe métallique dans votre conception, vous pouvez alors imprimer la charnière verticalement par rapport à son axe de rotation, car le métal supportera les contraintes mécaniques principales. Si vous préférez absolument imprimer verticalement sans renfort, optez pour des conceptions alternatives comme la charnière en V.</p>
+<p>Il est possible d'optimiser la qualité du pivot (ou gond) lorsqu'imprimé horizontalement. Selon la [<a href="https://youtu.be/fbY7xHGaeNM?si=1BlzNxnBj8Mgasma&amp;t=169">video de MakerMuse</a>] sur Youtube, il faut ajouter un méplat sur la zone base du pivot afin d'aider à la formation du pont et ajouter un V inversé sur la partie haute du pivot pour éviter que le porte-à-faux ne s'effondre et empêche une rotation sans friction de la charnière.</p>
+<p><img src="../pivot-optimisation.png" width="350"></p>
 
 
 
