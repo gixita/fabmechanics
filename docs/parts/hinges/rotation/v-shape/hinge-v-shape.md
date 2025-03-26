@@ -3,5 +3,7 @@ _Dernière modification: 24/03/2025_
 
 ![Charnière en V](./hinge-v-shape.png)
 
+_Slant3D_
+
 ## Citations - Sources - Attribution
 Vu sur la chaine Youtube Slant3D [[Video](https://www.youtube.com/watch?v=BWsUk1xSSn4)]
