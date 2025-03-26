@@ -1,0 +1,6 @@
+# Généralités sur le sens d’orientation d’impression des charnières
+Imprimez toujours les charnières simples horizontalement lorsqu'elles doivent fonctionner immédiatement après impression, car cela aligne les couches perpendiculairement aux forces de traction exercées pendant l'utilisation. Une charnière imprimée verticalement risque de se fracturer le long des couches qui se décolleront sous tension. Cependant, si vous intégrez un axe métallique dans votre conception, vous pouvez alors imprimer la charnière verticalement par rapport à son axe de rotation, car le métal supportera les contraintes mécaniques principales. Si vous préférez absolument imprimer verticalement sans renfort, optez pour des conceptions alternatives comme la charnière en V.
+
+Il est possible d'optimiser la qualité du pivot (ou gond) lorsqu'imprimé horizontalement. Selon la [[video de MakerMuse](https://youtu.be/fbY7xHGaeNM?si=1BlzNxnBj8Mgasma&t=169)] sur Youtube, il faut ajouter un méplat sur la zone base du pivot afin d'aider à la formation du pont et ajouter un V inversé sur la partie haute du pivot pour éviter que le porte-à-faux ne s'effondre et empêche une rotation sans friction de la charnière.
+
+<img src="../pivot-optimisation.png" width="350">
