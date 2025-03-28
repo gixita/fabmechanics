@@ -51,11 +51,18 @@ __Inconvénients__ : Risque de délamination des couches sous charge, structure 
 
 
 ## Conseils d'optimisation de conception
-### Diamètre de l'axe
-Augmenter le diamètre de l'axe pour une plus grande résistance.
+- Augmenter le diamètre de l'axe pour une plus grande résistance.
+- Ajouter un méplat sur l'axe/pivot pour faciliter le pont (bridging)
+
+<img src="../opt-meplat.png" width="200">
+
+- Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang).
+
+<img src="../opt-v.png" width="200">
+
+- Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce.
+
+<img src="../opt-chanfrein.png" width="200">
 
 ## Citations - Sources - Attribution
 Pas d'application
-
-## Conclusion
-La charnière universelle n'est pas une conception optimisée pour l'impression 3D.

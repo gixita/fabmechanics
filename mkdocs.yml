@@ -10,3 +10,12 @@ theme:
   name: material
   features:
     - navigation.expand # Pour que le sous-titre reste tjs ouvert
+
+extra:
+  social:
+    - icon: fontawesome/regular/envelope
+      link: mailto:fabmechanics@proton.me
+    - icon: fontawesome/brands/github
+      link: https://github.com/gixita/fabmechanics
+
+copyright: 'Content under MIT license.'

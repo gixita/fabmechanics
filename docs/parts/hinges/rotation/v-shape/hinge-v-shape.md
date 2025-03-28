@@ -1,6 +1,8 @@
 # Charnière en V
 _Dernière modification: 24/03/2025_
 
+> ! Pour le moment, nous n'avons pas trouvé comment dessiner cette charnière. Si vous avez une idée, merci de nous contacter sur [fabmechanics@proton.me](mailto:fabmechanics@proton.me).
+
 ![Charnière en V](./hinge-v-shape.png)
 
 _Slant3D_
