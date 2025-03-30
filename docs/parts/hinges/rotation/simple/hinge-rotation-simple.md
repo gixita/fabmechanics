@@ -4,9 +4,10 @@ _Dernière modification: 24/03/2025_
 ## Explication
 Une charnière simple détachable est un composant mécanique constitué de deux parties imbriquées pouvant pivoter l'une par rapport à l'autre autour d'un axe commun. Ce type de charnière permet la rotation selon une direction mais peut facilement se détacher lorsqu'une force est appliquée dans d'autres directions, ce qui la rend adaptée aux applications nécessitant un assemblage/désassemblage rapide mais avec une capacité de charge limitée.
 
-## Dessins
-![Dessin d'une charnière universelle simple et détachable](./hinge-rotation-simple.svg)
-[Modèle FreeCad](./hinge-rotation-simple.FCStd) | [Modèle Step](./hinge-rotation-simple.step)
+## Représentation simplifiée
+![Dessin d'une charnière universelle simple et détachable](./hinge-rotation-simple.png)
+
+[Modèle FreeCad avec optimisation de conception](./hinge-rotation-simple-toprint.FCStd)
 
 ## Analyse de l'orientation d'impression
 ### Orientation horizontale de l'axe de rotation
