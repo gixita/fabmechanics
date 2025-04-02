@@ -41,6 +41,7 @@ __Inconvénients__ : Risque de délamination des couches sous charge, structure 
 | --------------------------------- | ----------------- | ------------------ |
 | Orientation verticale de l'axe    | 0.15 | Jeu libre  |
 | Orientation horizontale de l'axe  | 0.15  | Friction moyenne |
+| Orientation horizontale de l'axe  | TBD  | Jeu libre |
 
 
 ## Paramètres d'impression
@@ -61,7 +62,7 @@ __Inconvénients__ : Risque de délamination des couches sous charge, structure 
 
 <img src="../opt-v.png" width="200">
 
-- Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce.
+- Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce. Le chanfrein du pivot devrait être plus petit que celui de l'alésage afin de minimiser la friction dans la charnière.
 
 <img src="../opt-chanfrein.png" width="200">
 
