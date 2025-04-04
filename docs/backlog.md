@@ -9,3 +9,11 @@ Charnière à crans : https://cults3d.com/fr/mod%C3%A8le-3d/outil/stoller-canopy
 
 # holes
 https://youtu.be/j6508J94VsA?si=3XAr45gmUtrjzhoc
+
+https://www.hydraresearch3d.com/design-rules#unsupported-holes
+
+Connecting pieces together
+https://www.youtube.com/watch?v=VKZoNRtd_5I
+
+Snap fit joints
+https://www.rapiddirect.com/blog/snap-fit-design/
