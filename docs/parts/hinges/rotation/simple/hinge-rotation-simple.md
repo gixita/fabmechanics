@@ -57,11 +57,11 @@ __Inconvénients__ : Risque de délamination des couches sous charge, structure 
 
 <img src="../opt-meplat.png" width="200">
 
-- Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang).
+- Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang). De plus, la partie haute d'un trou rond va être approximée par un plat dans le slicer, ce qui peut donc diminuer localement la taille du trou.
 
 <img src="../opt-v.png" width="200">
 
-- Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce.
+- Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce. Mettre un chanfrein de plus grande taille sur l'alésage pour éviter d'augmenter la surface de contact entre les deux pièces (pour limiter la friction sous une charge).
 
 <img src="../opt-chanfrein.png" width="200">
 
