@@ -11,6 +11,8 @@ Dénomination | Visuel | Orientation
 [A emboiter, facile à enlever](./rotation/snap/snap-clip.md) | <img src="../rotation/snap/snap-clip-simple.png" width="200"> | Horizontal
 [A emboiter, difficile à enlever](./rotation/snap/snap-strong.md) | <img src="../rotation/snap/snap-strong-simple.png" width="200"> | Horizontal
 [A blocage](./rotation/lock/lock.md) | <img src="../rotation/lock/lock.png" width="200"> | Horizontal
+[Axe à assembler](./rotation/assemblage-axe/assemblage-axe.md) | <img src="../rotation/assemblage-axe/assemblage-axe-simple.png" width="200"> | Horizontal
+
 
 L'objectif est que le tableau à terme contienne les informations complémentaires suivantes:
 

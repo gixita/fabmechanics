@@ -5,6 +5,7 @@ _Dernière modification: 24/03/2025_
 
 ![Charnière à emboiter](./snap-clip-simple.png)
 
+Contrairement aux charnières avec un pivot cylindrique, ce type de charnière peut être plus mince. Ceci est surtout dû à l'espace nécessaire pour les optimisations des charnières à pivot cylindrique.
 Cette charnière avec des pivots coniques possède un peu plus de jeu que sa contrepartie avec des [cylindres](./snap-strong.md). Cependant le jeu est plus faible qu'on pourrait le penser. Les deux parties peuvent se désassembler sans endommager la charnière.
 
 ## Analyse de l'orientation d'impression
