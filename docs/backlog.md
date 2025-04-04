@@ -17,3 +17,6 @@ https://www.youtube.com/watch?v=VKZoNRtd_5I
 
 Snap fit joints
 https://www.rapiddirect.com/blog/snap-fit-design/
+
+Other snap fit content
+https://support.3dsystems.com/s/article/projet-mjp-2500-snap-fits?language=en_US
