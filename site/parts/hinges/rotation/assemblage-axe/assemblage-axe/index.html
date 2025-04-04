@@ -16,7 +16,7 @@
     
     
       
-        <title>Charnière universelle simple et détachable - FabMechanics</title>
+        <title>Charnière avec axe à assembler - FabMechanics</title>
       
     
     
@@ -58,7 +58,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#charniere-universelle-simple-et-detachable" class="md-skip">
+        <a href="#charniere-avec-axe-a-assembler" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Charnière universelle simple et détachable
+              Charnière avec axe à assembler
             
           </span>
         </div>
@@ -319,15 +319,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#explication" class="md-nav__link">
-    <span class="md-ellipsis">
-      Explication
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#representation-simplifiee" class="md-nav__link">
     <span class="md-ellipsis">
       Représentation simplifiée
@@ -342,30 +333,6 @@
       Analyse de l'orientation d'impression
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Analyse de l&#39;orientation d&#39;impression">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#orientation-horizontale-de-laxe-de-rotation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Orientation horizontale de l'axe de rotation
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#orientation-verticale-de-laxe-de-rotation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Orientation verticale de l'axe de rotation
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -430,48 +397,15 @@
 
 
 
-<h1 id="charniere-universelle-simple-et-detachable">Charnière universelle simple et détachable</h1>
-<p><em>Dernière modification: 24/03/2025</em></p>
-<h2 id="explication">Explication</h2>
-<p>Une charnière simple détachable est un composant mécanique constitué de deux parties imbriquées pouvant pivoter l'une par rapport à l'autre autour d'un axe commun. Ce type de charnière permet la rotation selon une direction mais peut facilement se détacher lorsqu'une force est appliquée dans d'autres directions, ce qui la rend adaptée aux applications nécessitant un assemblage/désassemblage rapide mais avec une capacité de charge limitée.</p>
+<h1 id="charniere-avec-axe-a-assembler">Charnière avec axe à assembler</h1>
+<p><em>Dernière modification: 04/04/2025</em></p>
 <h2 id="representation-simplifiee">Représentation simplifiée</h2>
-<p><img alt="Dessin d'une charnière universelle simple et détachable" src="../hinge-rotation-simple.png" /></p>
-<p><a href="../hinge-rotation-simple-toprint.FCStd">Modèle FreeCad avec optimisation de conception</a></p>
+<p><img alt="Charnière à assembler" src="../assemblage-axe-simple.png" /></p>
+<p>Comme l'axe est assemblé, il peut être dans un autre type de matériau, comme en métal et donc augmenter la résistance de la charnière.</p>
 <h2 id="analyse-de-lorientation-dimpression">Analyse de l'orientation d'impression</h2>
-<h3 id="orientation-horizontale-de-laxe-de-rotation">Orientation horizontale de l'axe de rotation</h3>
-<p><strong>Avantages</strong> : Résistance plus élevée à la traction et la flexion.</p>
-<p><strong>Inconvénients</strong> : Lignes de couche visibles sur les surfaces courbes, les tolérances sont moins précises.</p>
-<p><img alt="Orientation horizontale" src="../Orientation-horizontale.png" /></p>
-<h3 id="orientation-verticale-de-laxe-de-rotation">Orientation verticale de l'axe de rotation</h3>
-<p><strong>Avantages</strong> : Surfaces de rotation plus lisses.</p>
-<p><strong>Inconvénients</strong> : Risque de délamination des couches sous charge, structure globale plus faible en raison de l'orientation des couches.</p>
-<p><img alt="Orientation verticale" src="../Orientation-verticale.png" /></p>
+<p>Impression verticale est optimale, mais peut également être imprimé horizontalement.</p>
 <h2 id="evaluation-qualitative-de-la-resistance-aux-contraintes">Evaluation qualitative de la résistance aux contraintes</h2>
-<p><em>Effort 1</em>
-<img alt="Effort n°1" src="../Force-1.png" /></p>
-<p><em>Effort 2</em>
-<img alt="Effort n°2" src="../Force-2.png" /></p>
-<table>
-<thead>
-<tr>
-<th>Orientation</th>
-<th>Effort 1</th>
-<th>Effort 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Orientation verticale de l'axe</td>
-<td>Résistance faible</td>
-<td>Résistance faible</td>
-</tr>
-<tr>
-<td>Orientation horizontale de l'axe</td>
-<td>Resistance haute</td>
-<td>Resistance moyenne</td>
-</tr>
-</tbody>
-</table>
+<p>TBD</p>
 <h2 id="specifications-de-jeu">Spécifications de jeu</h2>
 <table>
 <thead>
@@ -483,17 +417,12 @@
 </thead>
 <tbody>
 <tr>
-<td>Orientation verticale de l'axe</td>
-<td>0.15</td>
+<td>Orientation horizontale de l'axe</td>
+<td>TBD</td>
 <td>Jeu libre</td>
 </tr>
 <tr>
-<td>Orientation horizontale de l'axe</td>
-<td>0.15</td>
-<td>Friction moyenne</td>
-</tr>
-<tr>
-<td>Orientation horizontale de l'axe</td>
+<td>Orientation verticale de l'axe</td>
 <td>TBD</td>
 <td>Jeu libre</td>
 </tr>
@@ -511,12 +440,6 @@
 </thead>
 <tbody>
 <tr>
-<td>Orientation verticale de l'axe</td>
-<td>MK4 input shaper 0.4mm</td>
-<td>Prusament PLA</td>
-<td>0.20mm Speed</td>
-</tr>
-<tr>
 <td>Orientation horizontale de l'axe</td>
 <td>MK4 input shaper 0.4mm</td>
 <td>Prusament PLA</td>
@@ -526,20 +449,11 @@
 </table>
 <h2 id="conseils-doptimisation-de-conception">Conseils d'optimisation de conception</h2>
 <ul>
-<li>Augmenter le diamètre de l'axe pour une plus grande résistance.</li>
-<li>Ajouter un méplat sur l'axe/pivot pour faciliter le pont (bridging)</li>
-</ul>
-<p><img src="../opt-meplat.png" width="200"></p>
-<ul>
 <li>Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang).</li>
 </ul>
 <p><img src="../opt-v.png" width="200"></p>
-<ul>
-<li>Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce. Le chanfrein du pivot devrait être plus petit que celui de l'alésage afin de minimiser la friction dans la charnière.</li>
-</ul>
-<p><img src="../opt-chanfrein.png" width="200"></p>
 <h2 id="citations-sources-attribution">Citations - Sources - Attribution</h2>
-<p>Pas d'application</p>
+<p>Non applicable</p>
 
 
 
