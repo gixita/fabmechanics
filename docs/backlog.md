@@ -20,3 +20,7 @@ https://www.rapiddirect.com/blog/snap-fit-design/
 
 Other snap fit content
 https://support.3dsystems.com/s/article/projet-mjp-2500-snap-fits?language=en_US
+
+
+## To print
+https://www.printables.com/model/412888-clip-clamp-honeycomb-laser-cutter-pince-pour-table
