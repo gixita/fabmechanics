@@ -43,7 +43,9 @@ Photo de rupture de la charnière imprimée verticalement sous 143 N de contrain
 | Orientation verticale de l'axe  | MK4 input shaper 0.4mm | Prusament PLA | 0.20mm Speed  | 15% |
 
 ## Conseils d'optimisation de conception
-Aucun conseil d'optimisation, il semble que ce type de charnière soit bien adapté pour l'impression 3D.
+* Ajouter un congé sur la partie mâle de la charnière. Car le coin intérieur est sujet à une concentration de contrainte lors de la déformation élastique et favorise l'amorçage de fissure.
+
+<img src="../opt-snap-clip-conge.png" class="picture_optimisation">
 
 ## Citations - Sources - Attribution
 Vu sur la chaine Youtube de MakerMuse [[Youtube](https://youtu.be/fbY7xHGaeNM?si=pbwtnPVgYeoj8QsR&t=240)]

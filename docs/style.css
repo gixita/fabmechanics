@@ -1,6 +1,9 @@
 .picture {
     width: 400px;
 }
+.picture_optimisation {
+    width: 200px;
+}
 .center {
     display: block;
     margin: 0 auto;

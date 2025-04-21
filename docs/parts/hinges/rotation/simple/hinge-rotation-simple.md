@@ -53,15 +53,15 @@ __Inconvénients__ : Risque de délamination des couches sous charge.
 - Augmenter le diamètre de l'axe pour une plus grande résistance.
 - Ajouter un méplat sur l'axe/pivot pour faciliter le pont (bridging)
 
-<img src="../opt-meplat.png" width="200">
+<img src="../opt-meplat.png" class="picture_optimisation">
 
 - Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang). De plus, la partie haute d'un trou rond va être approximée par un plat dans le slicer, ce qui peut donc diminuer localement la taille du trou.
 
-<img src="../opt-v.png" width="200">
+<img src="../opt-v.png" class="picture_optimisation">
 
 - Ajouter un chanfrein à la base du pivot augmente la résistance de la pièce. Le chanfrein du pivot devrait être plus petit que celui de l'alésage afin de minimiser la friction dans la charnière.
 
-<img src="../opt-chanfrein.png" width="200">
+<img src="../opt-chanfrein.png" class="picture_optimisation">
 
 ## Citations - Sources - Attribution
 Pas d'application
