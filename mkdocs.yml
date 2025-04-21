@@ -17,5 +17,6 @@ extra:
       link: mailto:fabmechanics@proton.me
     - icon: fontawesome/brands/github
       link: https://github.com/gixita/fabmechanics
-
+extra_css:
+  - style.css
 copyright: 'Content under MIT license.'

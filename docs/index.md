@@ -3,7 +3,7 @@ _Dernière modification: 24/03/2025_
 
 > ! Site en construction
 
-Cette collection de designs à pour but de réunire des mécanismes et conseils pratiques pour l'impression 3D FDM et la découpe laser. 
+Cette collection de designs à pour but de réunir des mécanismes et conseils pratiques pour l'impression 3D FDM et la découpe laser. 
 
 Pour le moment, seuls les charnières sont à l'état de rédaction.
 

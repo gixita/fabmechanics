@@ -39,6 +39,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../../../style.css">
+    
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -343,6 +345,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Evaluation qualitative de la résistance aux contraintes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#test-de-traction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Test de traction
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -398,15 +415,40 @@
 
 
 <h1 id="charniere-pivot-conique-emboitable">Charnière pivot conique emboitable</h1>
-<p><em>Dernière modification: 24/03/2025</em></p>
+<p><em>Dernière modification: 21/04/2025</em></p>
 <h2 id="representation-simplifiee">Représentation simplifiée</h2>
-<p><img alt="Charnière à emboiter" src="../snap-clip-simple.png" /></p>
+<p><img src="../snap-clip-simple.png" class="picture" alt="Représentation simplifiée"></p>
 <p>Contrairement aux charnières avec un pivot cylindrique, ce type de charnière peut être plus mince. Ceci est surtout dû à l'espace nécessaire pour les optimisations des charnières à pivot cylindrique.
-Cette charnière avec des pivots coniques possède un peu plus de jeu que sa contrepartie avec des <a href="../snap-strong/">cylindres</a>. Cependant le jeu est plus faible qu'on pourrait le penser. Les deux parties peuvent se désassembler sans endommager la charnière.</p>
+Dans la version où l'axe est imprimé horizontalement, les deux parties peuvent se désassembler sans endommager la charnière.</p>
+<p><img src="../snap-clip-size.png" class="picture" alt="Dimensions de la charnière"></p>
 <h2 id="analyse-de-lorientation-dimpression">Analyse de l'orientation d'impression</h2>
-<p>Impression verticale à réaliser</p>
+<p>Imprimer l'axe de rotation horizontalement permet aux pattes d'être moins fragiles et de supporter une déformation élastique plus importante. On remarque dans le test de résistance que la version où l'axe est imprimé verticalement a moins de jeu et casse sans se désolidariser.</p>
 <h2 id="evaluation-qualitative-de-la-resistance-aux-contraintes">Evaluation qualitative de la résistance aux contraintes</h2>
-<p>TBD</p>
+<h3 id="test-de-traction">Test de traction</h3>
+<table>
+<thead>
+<tr>
+<th>Orientation</th>
+<th>Rupture</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Orientation horizontale de l'axe (jeu 0.3mm)</td>
+<td>N/A*</td>
+</tr>
+<tr>
+<td>Orientation verticale de l'axe (jeu 0.3mm)</td>
+<td>143 N</td>
+</tr>
+<tr>
+<td>* Imprimé horizontalement, la charnière se désolidarise à 35N mais le mécanisme ne présente pas de dommage et peut être remis en place.</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Photo de rupture de la charnière imprimée verticalement sous 143 N de contrainte.</p>
+<p><img src="../snap-clip-vertical-143N-rupture.png" class="picture" alt="Rupture orientation verticale sous 143N"></p>
 <h2 id="specifications-de-jeu">Spécifications de jeu</h2>
 <table>
 <thead>
@@ -422,8 +464,19 @@ Cette charnière avec des pivots coniques possède un peu plus de jeu que sa con
 <td>0.3</td>
 <td>Jeu libre</td>
 </tr>
+<tr>
+<td>Orientation verticale de l'axe</td>
+<td>0.3</td>
+<td>Friction moyenne*</td>
+</tr>
+<tr>
+<td>* la charnière ne change pas de position sous l'effet de la gravité.</td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
+<p><img src="../snap-clip-jeu.png" class="picture" alt="Orientation horizontale"></p>
 <h2 id="parametres-dimpression">Paramètres d'impression</h2>
 <table>
 <thead>
@@ -432,6 +485,7 @@ Cette charnière avec des pivots coniques possède un peu plus de jeu que sa con
 <th>Imprimante</th>
 <th>Filament</th>
 <th>Profil</th>
+<th>Remplissage</th>
 </tr>
 </thead>
 <tbody>
@@ -440,10 +494,19 @@ Cette charnière avec des pivots coniques possède un peu plus de jeu que sa con
 <td>MK4 input shaper 0.4mm</td>
 <td>Prusament PLA</td>
 <td>0.20mm Speed</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Orientation verticale de l'axe</td>
+<td>MK4 input shaper 0.4mm</td>
+<td>Prusament PLA</td>
+<td>0.20mm Speed</td>
+<td>15%</td>
 </tr>
 </tbody>
 </table>
 <h2 id="conseils-doptimisation-de-conception">Conseils d'optimisation de conception</h2>
+<p>Aucun conseil d'optimisation, il semble que ce type de charnière soit bien adapté pour l'impression 3D.</p>
 <h2 id="citations-sources-attribution">Citations - Sources - Attribution</h2>
 <p>Vu sur la chaine Youtube de MakerMuse [<a href="https://youtu.be/fbY7xHGaeNM?si=pbwtnPVgYeoj8QsR&amp;t=240">Youtube</a>]</p>
 

@@ -1,5 +1,5 @@
 # Charnière universelle simple et détachable
-_Dernière modification: 24/03/2025_
+_Dernière modification: 21/04/2025_
 
 ## Explication
 Une charnière simple détachable est un composant mécanique constitué de deux parties imbriquées pouvant pivoter l'une par rapport à l'autre autour d'un axe commun. Ce type de charnière permet la rotation selon une direction mais peut facilement se détacher lorsqu'une force est appliquée dans d'autres directions, ce qui la rend adaptée aux applications nécessitant un assemblage/désassemblage rapide mais avec une capacité de charge limitée.
@@ -15,36 +15,33 @@ __Avantages__ : Résistance plus élevée à la traction et la flexion.
 
 __Inconvénients__ : Lignes de couche visibles sur les surfaces courbes, les tolérances sont moins précises.
 
-![Orientation horizontale](./Orientation-horizontale.png)
+<img src="../Orientation-horizontale.png" width="400" alt="Orientation horizontale">
 
 ### Orientation verticale de l'axe de rotation
 __Avantages__ : Surfaces de rotation plus lisses.
 
-__Inconvénients__ : Risque de délamination des couches sous charge, structure globale plus faible en raison de l'orientation des couches.
+__Inconvénients__ : Risque de délamination des couches sous charge.
 
-![Orientation verticale](./Orientation-verticale.png)
+<img src="../Orientation-verticale.png" width="400" alt="orientation verticale">
 
+<!-- 
 ## Evaluation qualitative de la résistance aux contraintes
-*Effort 1*
-![Effort n°1](./Force-1.png)
-
-*Effort 2*
-![Effort n°2](./Force-2.png)
 
 | Orientation                       | Effort 1          | Effort 2           |
 | --------------------------------- | ----------------- | ------------------ |
 | Orientation verticale de l'axe    | Résistance faible | Résistance faible  |
 | Orientation horizontale de l'axe  | Resistance haute  | Resistance moyenne |
 
+-->
 ## Spécifications de jeu
 | Orientation                       | Jeu          | Résultats expérimentaux           |
 | --------------------------------- | ----------------- | ------------------ |
 | Orientation verticale de l'axe    | 0.15 | Jeu libre  |
 | Orientation horizontale de l'axe  | 0.15  | Friction moyenne |
-| Orientation horizontale de l'axe  | TBD  | Jeu libre |
+| Orientation horizontale de l'axe  | 0.3  | Jeu libre |
 
 
-## Paramètres d'impression
+## Paramètres d'impression utilisés
 
 | Différentes impressions           | Imprimante             | Filament      | Profil           |
 | --------------------------------- | ---------------------- | ------------- | ------------- |
