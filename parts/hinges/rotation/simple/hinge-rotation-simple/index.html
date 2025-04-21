@@ -39,6 +39,8 @@
       
     
     
+      <link rel="stylesheet" href="../../../../../style.css">
+    
     <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
@@ -370,15 +372,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#evaluation-qualitative-de-la-resistance-aux-contraintes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Evaluation qualitative de la résistance aux contraintes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#specifications-de-jeu" class="md-nav__link">
     <span class="md-ellipsis">
       Spécifications de jeu
@@ -388,9 +381,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#parametres-dimpression" class="md-nav__link">
+  <a href="#parametres-dimpression-utilises" class="md-nav__link">
     <span class="md-ellipsis">
-      Paramètres d'impression
+      Paramètres d'impression utilisés
     </span>
   </a>
   
@@ -431,7 +424,7 @@
 
 
 <h1 id="charniere-universelle-simple-et-detachable">Charnière universelle simple et détachable</h1>
-<p><em>Dernière modification: 24/03/2025</em></p>
+<p><em>Dernière modification: 21/04/2025</em></p>
 <h2 id="explication">Explication</h2>
 <p>Une charnière simple détachable est un composant mécanique constitué de deux parties imbriquées pouvant pivoter l'une par rapport à l'autre autour d'un axe commun. Ce type de charnière permet la rotation selon une direction mais peut facilement se détacher lorsqu'une force est appliquée dans d'autres directions, ce qui la rend adaptée aux applications nécessitant un assemblage/désassemblage rapide mais avec une capacité de charge limitée.</p>
 <h2 id="representation-simplifiee">Représentation simplifiée</h2>
@@ -441,37 +434,20 @@
 <h3 id="orientation-horizontale-de-laxe-de-rotation">Orientation horizontale de l'axe de rotation</h3>
 <p><strong>Avantages</strong> : Résistance plus élevée à la traction et la flexion.</p>
 <p><strong>Inconvénients</strong> : Lignes de couche visibles sur les surfaces courbes, les tolérances sont moins précises.</p>
-<p><img alt="Orientation horizontale" src="../Orientation-horizontale.png" /></p>
+<p><img src="../Orientation-horizontale.png" width="400" alt="Orientation horizontale"></p>
 <h3 id="orientation-verticale-de-laxe-de-rotation">Orientation verticale de l'axe de rotation</h3>
 <p><strong>Avantages</strong> : Surfaces de rotation plus lisses.</p>
-<p><strong>Inconvénients</strong> : Risque de délamination des couches sous charge, structure globale plus faible en raison de l'orientation des couches.</p>
-<p><img alt="Orientation verticale" src="../Orientation-verticale.png" /></p>
-<h2 id="evaluation-qualitative-de-la-resistance-aux-contraintes">Evaluation qualitative de la résistance aux contraintes</h2>
-<p><em>Effort 1</em>
-<img alt="Effort n°1" src="../Force-1.png" /></p>
-<p><em>Effort 2</em>
-<img alt="Effort n°2" src="../Force-2.png" /></p>
-<table>
-<thead>
-<tr>
-<th>Orientation</th>
-<th>Effort 1</th>
-<th>Effort 2</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Orientation verticale de l'axe</td>
-<td>Résistance faible</td>
-<td>Résistance faible</td>
-</tr>
-<tr>
-<td>Orientation horizontale de l'axe</td>
-<td>Resistance haute</td>
-<td>Resistance moyenne</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Inconvénients</strong> : Risque de délamination des couches sous charge.</p>
+<p><img src="../Orientation-verticale.png" width="400" alt="orientation verticale"></p>
+<!-- 
+## Evaluation qualitative de la résistance aux contraintes
+
+| Orientation                       | Effort 1          | Effort 2           |
+| --------------------------------- | ----------------- | ------------------ |
+| Orientation verticale de l'axe    | Résistance faible | Résistance faible  |
+| Orientation horizontale de l'axe  | Resistance haute  | Resistance moyenne |
+
+-->
 <h2 id="specifications-de-jeu">Spécifications de jeu</h2>
 <table>
 <thead>
@@ -494,12 +470,12 @@
 </tr>
 <tr>
 <td>Orientation horizontale de l'axe</td>
-<td>TBD</td>
+<td>0.3</td>
 <td>Jeu libre</td>
 </tr>
 </tbody>
 </table>
-<h2 id="parametres-dimpression">Paramètres d'impression</h2>
+<h2 id="parametres-dimpression-utilises">Paramètres d'impression utilisés</h2>
 <table>
 <thead>
 <tr>
@@ -531,7 +507,7 @@
 </ul>
 <p><img src="../opt-meplat.png" width="200"></p>
 <ul>
-<li>Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang).</li>
+<li>Ajouter une pointe à l'alésage (pièce femelle) afin d'éviter un effondrement dû au porte-à-faux (overhang). De plus, la partie haute d'un trou rond va être approximée par un plat dans le slicer, ce qui peut donc diminuer localement la taille du trou.</li>
 </ul>
 <p><img src="../opt-v.png" width="200"></p>
 <ul>
