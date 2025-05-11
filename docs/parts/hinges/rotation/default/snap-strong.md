@@ -1,28 +1,12 @@
-# Charnière pivots courts cylindriques (emboitable)
+# Charnière pivots courts cylindriques
 _Dernière modification: 24/03/2025_
 
-![Charnière pivots courts cylindriques](./snap-strong-simple.png)
+<img src="../snap-strong-simple.png" alt="Charnière pivots courts cylindriques" class="picture">
 
 Afin de rendre le système emboitable, il est nécessaire de rendre les pattes de fixation flexible en diminuant leur épaisseur, mais cela réduira la résistance à la traction. Il peut être plus judicieux si les parties doivent se désassembler d'utiliser la [charnière à pivot conique emboitable](./snap-clip.md).
 
 ## Analyse de l'orientation d'impression
-Impression verticale à réaliser
-
-## Evaluation qualitative de la résistance aux contraintes
-TBD
-
-## Spécifications de jeu
-| Orientation                       | Jeu          | Résultats expérimentaux           |
-| --------------------------------- | ----------------- | ------------------ |
-| Orientation horizontale de l'axe  | 0.3  | Jeu libre |
-
-
-## Paramètres d'impression
-
-| Différentes impressions           | Imprimante             | Filament      | Profil           |
-| --------------------------------- | ---------------------- | ------------- | ------------- |
-| Orientation horizontale de l'axe  | MK4 input shaper 0.4mm | Prusament PLA | 0.20mm Speed  |
-
+Impression horizontale optimale pour la [flexion](../effort-flexion.png) et la [traction](../effort-traction.png).
 
 ## Conseils d'optimisation de conception
 - Augmenter le diamètre du pivot pour une plus grande résistance.
@@ -39,4 +23,4 @@ TBD
 <img src="../opt-snap-chanfrein-pivot.png" width="200">
 
 ## Citations - Sources - Attribution
-Vu sur la chaine Youtube de MakerMuse [[Youtube](https://youtu.be/fbY7xHGaeNM?si=pbwtnPVgYeoj8QsR&t=240)]
+Vu sur la chaine Youtube de MakerMuse [Youtube](https://youtu.be/fbY7xHGaeNM?si=pbwtnPVgYeoj8QsR&t=240)
