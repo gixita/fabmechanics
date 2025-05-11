@@ -27,3 +27,6 @@ https://www.printables.com/model/412888-clip-clamp-honeycomb-laser-cutter-pince-
 
 # Improve adherence with multimaterial 
 https://www.youtube.com/watch?v=gbtlL8mTqJI
+
+# Nice article
+https://blog.rahix.de/design-for-3d-printing/#rule-R1.3
