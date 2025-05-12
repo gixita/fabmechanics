@@ -6,6 +6,7 @@ nav:
   - Bienvenue: index.md
   - Chapitres:
     - Charnières à rotation: ./parts/hinges/hinges.md
+    - Trous et alésages: ./parts/holes/holes.md
 theme:
   name: material
   features:
