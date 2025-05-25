@@ -30,3 +30,6 @@ https://www.youtube.com/watch?v=gbtlL8mTqJI
 
 # Nice article
 https://blog.rahix.de/design-for-3d-printing/#rule-R1.3
+
+# Join printables
+https://www.youtube.com/watch?v=ub5IInrc0PE
