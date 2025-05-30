@@ -33,3 +33,6 @@ https://blog.rahix.de/design-for-3d-printing/#rule-R1.3
 
 # Join printables
 https://www.youtube.com/watch?v=ub5IInrc0PE
+
+# support release agent
+https://www.youtube.com/watch?v=BOG9Li2PXMY
