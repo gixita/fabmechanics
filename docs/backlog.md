@@ -36,3 +36,6 @@ https://www.youtube.com/watch?v=ub5IInrc0PE
 
 # support release agent
 https://www.youtube.com/watch?v=BOG9Li2PXMY
+
+# Print tuning guide bible
+https://ellis3dp.com/Print-Tuning-Guide/
